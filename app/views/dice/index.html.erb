@@ -12,5 +12,8 @@
 </p>
 <% else %>
 <h1>What is your name?</h1>
-<form action>
+<form action="/dice" method="GET">
+<input name="name" type="text">
+<button>Let's play!</button>
+</form>
 <% end %>
